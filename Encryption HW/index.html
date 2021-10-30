@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Encryption</title>
+    <meta charset="utf-8"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.js"></script>
+    <script type="text/javascript" src="script.js"> </script>
+    <link rel="shorcut icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="encrypt">
+
+    <h2>JaxPrograms' Encryption Tool</h2>
+
+    <div class="button">
+    <label for="input">Input:</label>
+    <input type = "textarea" style="height:50px;width:400px;font-size:12pt;" id="input" name="input"><br><br>
+    <button class="pure-button pure-button-primary" id="button1" onclick="crypto()"> Submit </button>
+    <button class="pure-button pure-button-primary" id="clearButton" onclick="clearBoxes()"> Clear </button><br><br>
+    </div>
+    <label for="aes">AES Encryption:</label>
+    <textarea style="height:25px;width:400px;font-size:10pt;" id="aes"></textarea><br><br>
+    <label for="sha1">SHA1 Encryption:</label>
+    <textarea style="height:25px;width:400px;font-size:10pt;" id="sha1"></textarea><br><br>
+    <label for="sha224">SHA224 Encryption:</label>
+    <textarea style="height:25px;width:400px;font-size:10pt;" id="sha224"></textarea><br><br>
+    <label for="sha512">SHA512 Encryption:</label>
+    <textarea style="height:25px;width:400px;font-size:10pt;" id="sha512"></textarea><br><br>
+
+    <h4> Decimal and Binary Converter</h4>
+    <label for="input2">Input:</label>
+    <input type = "textarea" style="height:50px;width:400px;font-size:12pt;" id="input2" name="d2bin"><br><br>
+    <label for="output">Output:</label>
+    <textarea style="height:25px;width:400px;font-size:10pt;" id="output"></textarea><br><br>
+    <button class="pure-button pure-button-primary" id="b2d" onclick="b2d()"> B2D </button>
+    <button class="pure-button pure-button-primary" id="d2b" onclick="d2b()"> D2B </button>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    background-image: url("encrypt.jpg");
+    color: floralwhite;
+
+}
+
+html {
+    display: table;
+    margin: auto;
+
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.encrypt{
+    text-align: center;
+    padding-top: 20px;
+}
